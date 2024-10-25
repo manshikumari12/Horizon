@@ -1,6 +1,6 @@
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 100%;
   }
   
@@ -80,10 +80,11 @@
 
   /* ======================================================== */
 .custom-section{
-    background-color: #006838
+    background-color:#FBAF2B
 }
   .opportunity-section {
-    background-color: #006838
+    background-color:#FBAF2B
+    
   }
   
   .text-container h3 {

@@ -44,12 +44,13 @@
 }
 
 /* Styling for the text section */
-.textsection p {
+.text-section-society {
     font-size: 1.2rem;
     color: #555;
     line-height: 1.8;
     text-align: justify;
     margin: 0 2rem;
+    padding: 20px;
 }
 
 /* Responsive adjustments */

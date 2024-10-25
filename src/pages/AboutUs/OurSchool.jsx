@@ -50,14 +50,10 @@ const OurSchool = () => {
           {/* Left Side Text */}
           <div className="text-container md:w-1/2 mb-6 md:mb-0 md:pr-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">
-              Delhi Public School
+            New Horizon Public School
             </h2>
             <p className="text-gray-600 mb-4">
-              DPS Kollam, Kerala’s first and only DPS, believes in a holistic
-              approach towards nurturing the children into tomorrow’s
-              responsible global citizens. It is a residential cum day-boarding
-              school, nestled in the calm and pristine surroundings in
-              Meeyannoor, a stone’s throw away from the city of Kollam, Kerala.
+            New Horizon Public School, located in Pathargama, Godda, Bihar, believes in a holistic approach towards nurturing children into tomorrow’s responsible global citizens. It is a residential cum day-boarding school, nestled in the calm and serene surroundings of Pathargama, providing a peaceful environment for learning and growth.
             </p>
             <p className="text-gray-600 mb-4">
               The school provides excellence in formal education in K12 format
@@ -99,7 +95,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/football.jpg"
+                              "https://davbsebpatna.org/File/4568//Photo_Big_bac29b72-303b-4e0a-8cfc-d7d083b24259_3.jpeg"
                             )
                           }
                         >
@@ -107,7 +103,7 @@ const OurSchool = () => {
                         </li>
                         <li
                           onClick={() =>
-                            handleImageChange("https://example.com/cricket.jpg")
+                            handleImageChange("https://davbsebpatna.org/File/4568//Photo_Big_65657bcd-d5c0-4a67-8311-fa0726840a4b_yoga-hero.jpg")
                           }
                         >
                           Cricket
@@ -115,7 +111,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/basketball.jpg"
+                              "https://davbsebpatna.org/File/4568//Photo_Big_65657bcd-d5c0-4a67-8311-fa0726840a4b_yoga-hero.jpg"
                             )
                           }
                         >
@@ -138,7 +134,7 @@ const OurSchool = () => {
                       <ul>
                         <li
                           onClick={() =>
-                            handleImageChange("https://example.com/chess.jpg")
+                            handleImageChange("https://davbsebpatna.org/File/4568//Photo_Big_9aeb8183-3ee5-422c-9109-34de6d77a4ca_WhatsApp%20Image%202022-05-21%20at%2012.14.43%20PM.jpeg")
                           }
                         >
                           Chess
@@ -146,7 +142,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/table-tennis.jpg"
+                              "https://davbsebpatna.org/File/4568//Photo_Big_8a9ae9c2-ce5c-4eaf-a5aa-b69b459c2813_WhatsApp%20Image%202022-05-21%20at%2012.13.52%20PM.jpeg"
                             )
                           }
                         >
@@ -155,7 +151,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/badminton.jpg"
+                              "https://dpskollam.com/wp-content/uploads/2019/09/WhatsApp-Image-2024-03-14-at-12.07.31-PM-6-1536x864.jpeg"
                             )
                           }
                         >
@@ -179,7 +175,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/subjects.jpg"
+                              "https://dpskollam.com/wp-content/uploads/2019/09/ASW07941.jpg"
                             )
                           }
                         >
@@ -187,14 +183,14 @@ const OurSchool = () => {
                         </li>
                         <li
                           onClick={() =>
-                            handleImageChange("https://example.com/exams.jpg")
+                            handleImageChange("https://dpskollam.com/wp-content/uploads/2019/09/WhatsApp-Image-2024-03-14-at-12.07.33-PM-2-1536x864.jpeg")
                           }
                         >
                           Exams
                         </li>
                         <li
                           onClick={() =>
-                            handleImageChange("https://example.com/results.jpg")
+                            handleImageChange("https://dpskollam.com/wp-content/uploads/2019/09/WhatsApp-Image-2024-03-14-at-12.07.33-PM-2-1536x864.jpeg")
                           }
                         >
                           Results
@@ -217,7 +213,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/boys-hostel.jpg"
+                              "https://dpskollam.com/wp-content/uploads/2019/09/WhatsApp-Image-2024-03-14-at-12.07.34-PM-1-1536x864.jpeg"
                             )
                           }
                         >
@@ -226,7 +222,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/girls-hostel.jpg"
+                              "https://dpskollam.com/wp-content/uploads/2019/09/WhatsApp-Image-2024-03-14-at-12.07.32-PM-1-1536x864.jpeg"
                             )
                           }
                         >
@@ -235,7 +231,7 @@ const OurSchool = () => {
                         <li
                           onClick={() =>
                             handleImageChange(
-                              "https://example.com/hostel-activities.jpg"
+                              "https://dpskollam.com/wp-content/uploads/2019/08/03-1.jpg"
                             )
                           }
                         >
@@ -290,7 +286,7 @@ const OurSchool = () => {
 
           <div className="image-container md:w-1/3">
             <img
-              src="https://dpskollam.com/wp-content/uploads/2023/07/shooting.jpg"
+              src="https://davbsebpatna.org/File/4568/Message_5a44544c-5248-4a70-a0ce-dbcf30270f1c_Principalpatna.jpeg"
               alt="School Image"
               className="rounded-lg shadow-lg w-full h-auto"
             />
@@ -298,7 +294,7 @@ const OurSchool = () => {
 
           <div className="badge-image-container md:w-1/3 relative bg-blue-500 p-6 rounded-lg shadow-lg">
             <img
-              src="https://dpskollam.com/wp-content/uploads/2023/07/shooting.jpg"
+              src="https://davbsebpatna.org/File/4568//Slider_0227706c-105d-4a24-a605-826c178bbf7a_5.jpeg"
               alt="School with Badge"
               className="rounded-lg w-full h-auto"
             />
@@ -321,11 +317,7 @@ const OurSchool = () => {
                 A World of Opportunity Awaits...
               </h3>
               <p className="text-white text-lg">
-                And we at Delhi Public School want to help our children seize
-                it. From excellence in classroom to an impressive range of
-                extracurricular activities, students can fully immerse
-                themselves in developing valuable skills that they will use
-                throughout their lives.
+              And we at New Horizon Public School want to help our children seize every opportunity. From excellence in the classroom to an impressive range of extracurricular activities, students can fully immerse themselves in developing valuable skills that they will use throughout their lives.
               </p>
             </div>
 
