@@ -1,0 +1,202 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8fafc; /* Light Gray Background */
+}
+
+.admission-image {
+  width: 100%;
+  height: auto; /* Responsive image */
+}
+
+.custom-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input {
+  transition: border-color 0.3s;
+}
+
+.custom-input:focus {
+  border-color: #4a90e2; /* Change border color on focus */
+}
+
+/* Button Styles */
+button {
+  transition: background-color 0.3s;
+}
+
+/* Responsive Styles */
+@media (min-width: 640px) {
+  .fade-in {
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in; /* Fade-in effect */
+  }
+
+  .fade-in-form {
+    opacity: 1;
+    animation: slideIn 0.5s ease-in;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Tablet Styles */
+  .flex {
+    flex-direction: row; /* Change to row on tablets and larger */
+  }
+  .bg-white {
+    padding: 20px; /* More padding on larger screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Desktop Styles */
+  .max-w-md {
+    max-width: 30rem; /* Adjust max width for desktop */
+  }
+  
+  .max-w-lg {
+    max-width: 40rem; /* Adjust max width for larger screens */
+  }
+
+  .max-w-xl {
+    max-width: 50rem; /* Adjust max width for even larger screens */
+  }
+
+  .bg-green-600 {
+    background-color: #38a169; /* Darker green for larger screens */
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide In Animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Custom Styles for the Form */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for inputs */
+  margin-bottom: 16px; /* Margin for spacing */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Checkboxes */
+input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+/* Utility Classes */
+.mb-4 {
+  margin-bottom: 1rem; /* Spacing utility */
+}
+
+.w-full {
+  width: 100%; /* Full width utility */
+}
+
+.bg-green-600 {
+  background-color: #2f855a; /* Default button color */
+}
+
+.text-white {
+  color: #fff; /* White text */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* Rounded corners utility */
+}
+
+.hover\:bg-green-700:hover {
+  background-color: #276749; /* Darker on hover */
+}
+
+.transition {
+  transition: all 0.2s ease; /* Smooth transitions */
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Larger shadow */
+}
+
+.p-6 {
+  padding: 1.5rem; /* Padding utility */
+}
+
+.max-w-2xl {
+  max-width: 42rem; /* Max width utility for 2xl */
+}
+
+.min-h-screen {
+  min-height: 100vh; /* Minimum height to full screen */
+}
+
+.flex {
+  display: flex; /* Flexbox utility */
+}
+
+.justify-center {
+  justify-content: center; /* Center content horizontally */
+}
+
+.items-center {
+  align-items: center; /* Center content vertically */
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc; /* Light background */
+}
+
+.rounded-lg {
+  border-radius: 0.5rem; /* Larger rounded corners */
+}
+
+.shadow-md {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Medium shadow */
+}
+
+/* Flexbox Utilities */
+.md\:w-1\/2 {
+  width: 50%; /* Width for medium screens */
+}
+
+.md\:max-w-2xl {
+  max-width: 42rem; /* Max width for medium screens */
+}
+
+@media (min-width: 768px) {
+  /* Make adjustments for larger screens */
+  .md\:mb-0 {
+    margin-bottom: 0; /* Remove bottom margin */
+  }
+}
