@@ -80,11 +80,14 @@ const Header = () => {
 
       <nav className="sm:h-20 h-28 flex justify-between px- md:px-9 items-center tracking-tight bg-white shadow-md">
         <div>
+          <Link to="/">
           <img
             src={horizonlogo}
             alt="horizonlogo"
             className="max-w-full h-12 sm:h-21"
           />
+          </Link>
+        
         </div>
 
         <div className="xl:hidden">
