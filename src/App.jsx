@@ -126,6 +126,7 @@ function App() {
 
         {/* Contact Us */}
         <Route path="/contactus" element={<ContactUs />} />
+        
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/studentLogin" element={<StudentLogin/>} />
         <Route path="/TeacherLogin" element={<TeacherLogin/>} />
